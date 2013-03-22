@@ -1,6 +1,18 @@
-safe: true
-source: <your pages repo>
-destination: <the build dir>
-lsi: false
-pygments: true
+auto:	          true
 
+markdown:         rdiscount
+pygments:         true
+paginate:         6
+permalink:        /:title
+
+title:            TossKing.github.com
+url:              http://tossking.github.com
+feed:             /atom.xml
+author:
+    name:         TossKing
+    twitter:      twitter.com/tossking
+description:      "TossKing\'s Blog"
+author_info:      <a href="http://tossking.github.com/about">TossKing</a>
+
+copyright:
+    - Design by <a href="http://tossking.github.com/about" title="TossKing" target="_blank">TossKing</a> &copy; 2013
